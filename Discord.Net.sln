@@ -44,7 +44,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{BB59D5B5-E7B0-4BF4-8F82-D14431B2799B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discord.Net.BuildOverrides", "experiment\Discord.Net.BuildOverrides\Discord.Net.BuildOverrides.csproj", "{115F4921-B44D-4F69-996B-69796959C99D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discord.Net.BuildOverrides", "experiment\Discord.Net.BuildOverrides\Discord.Net.BuildOverrides.csproj", "{115F4921-B44D-4F69-996B-69796959C99D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TotallyHuman", "TotallyHuman\TotallyHuman.csproj", "{376E03C0-9313-4B57-94FB-C91BB505C70F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -272,6 +274,18 @@ Global
 		{115F4921-B44D-4F69-996B-69796959C99D}.Release|x64.Build.0 = Release|Any CPU
 		{115F4921-B44D-4F69-996B-69796959C99D}.Release|x86.ActiveCfg = Release|Any CPU
 		{115F4921-B44D-4F69-996B-69796959C99D}.Release|x86.Build.0 = Release|Any CPU
+		{376E03C0-9313-4B57-94FB-C91BB505C70F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376E03C0-9313-4B57-94FB-C91BB505C70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376E03C0-9313-4B57-94FB-C91BB505C70F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{376E03C0-9313-4B57-94FB-C91BB505C70F}.Debug|x64.Build.0 = Debug|Any CPU
+		{376E03C0-9313-4B57-94FB-C91BB505C70F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{376E03C0-9313-4B57-94FB-C91BB505C70F}.Debug|x86.Build.0 = Debug|Any CPU
+		{376E03C0-9313-4B57-94FB-C91BB505C70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376E03C0-9313-4B57-94FB-C91BB505C70F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376E03C0-9313-4B57-94FB-C91BB505C70F}.Release|x64.ActiveCfg = Release|Any CPU
+		{376E03C0-9313-4B57-94FB-C91BB505C70F}.Release|x64.Build.0 = Release|Any CPU
+		{376E03C0-9313-4B57-94FB-C91BB505C70F}.Release|x86.ActiveCfg = Release|Any CPU
+		{376E03C0-9313-4B57-94FB-C91BB505C70F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
