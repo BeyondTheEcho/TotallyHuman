@@ -1,28 +1,16 @@
-using Discord;
-using Discord.WebSocket;
+
 
 namespace TotallyHuman
 {
     internal class Program
     {
-        public static Task Main(string[] args) => new Program().MainAsync();
-
-        public async Task MainAsync()
+        public static async Task Main(string[] args)
         {
-            DiscordSocketClient client = new DiscordSocketClient();
-
-            client.Log += Log;
-
             string token = File.ReadAllText(@"..\..\..\..\Token.txt");
 
-            await client.LoginAsync(TokenType.Bot, token);
-            await client.StartAsync();
-        }
+            TotallyHuman totallyHuman = new TotallyHuman(token);
 
-        private Task Log(LogMessage msg)
-        {
-            Console.WriteLine(msg.ToString());
-            return Task.CompletedTask;
+            await totallyHuman.SetupClientAsync();
         }
     }
 }
